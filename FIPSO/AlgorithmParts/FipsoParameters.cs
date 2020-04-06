@@ -16,7 +16,10 @@ namespace FIPSO.AlgorithmParts
         public double ParticleSpreadRadius { get; set; }
         public double PersonalBestCoefficient { get; set; }
         public double OtherBestCoefficient { get; set; }
-        public double GravityFace { get; set; }
+        public double GravityFade { get; set; }
         public double ElectromagnetismFade { get; set; }
+        public List<double> masses { get; set; }
+        public List<double> charges { get; set; }
+        public double MaxMass { get; set; }
     }
 }

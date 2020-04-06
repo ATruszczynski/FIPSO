@@ -46,5 +46,15 @@ namespace FIPSO
         {
             return v1 + (-1 * v2);
         }
+
+        public static Vector2d operator -(Vector2d v)
+        {
+            return -1 * v;
+        }
+
+        public static Vector2d operator/(Vector2d v, double mass)
+        {
+            return new Vector2d(v.X / mass, v.Y / mass);
+        }
     }
 }

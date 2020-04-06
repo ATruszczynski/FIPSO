@@ -14,10 +14,11 @@ namespace FIPSO.AlgorithmParts
         public Vector2d Position { get; set; }
         public Vector2d PersonalBest { get; set; }
 
-        public Particle(Vector2d velocity, float mass)
+        public Particle(Vector2d velocity, double mass, double charge)
         {
             Velocity = velocity;
             Mass = mass;
+            Charge = charge;
         }
     }
 }
